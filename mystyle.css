@@ -1,0 +1,15 @@
+.abc{
+    color: blue;
+    background-color: burlywood;
+}
+#txt{
+    color:brown
+}
+.box{
+    height: 100px;
+    width: 200px;
+    border:2px solid black;
+    padding:15px;
+    margin:5px;
+    float: left;
+}
