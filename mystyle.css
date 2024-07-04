@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .abc{
     color: blue;
     background-color: burlywood;
@@ -12,4 +13,20 @@
     padding:15px;
     margin:5px;
     float: left;
+=======
+.abc{
+    color: blue;
+    background-color: burlywood;
+}
+#txt{
+    color:brown
+}
+.box{
+    height: 100px;
+    width: 200px;
+    border:2px solid black;
+    padding:15px;
+    margin:5px;
+    float: left;
+>>>>>>> 8ec556e0a5281a16560f8d7ce673368f6caa49c3
 }
