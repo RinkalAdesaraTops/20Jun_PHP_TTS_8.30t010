@@ -50,6 +50,10 @@ if($rev == $f){
 } else {
     echo "<br>It is not palindrom no";
 }
+
+$age = 25;
+echo ($age>18)?"Eligible for vote":"Not eligible 4 vote";
+
 ?>
 
 
