@@ -1,0 +1,13 @@
+what is php?
+Php founder- Rasmus Lerdorf & released year -1995
+why php is most popular language?
+-->Open Source --version update 
+SQL - Query --select *
+NoSQL  - MongoDB - find({id:10}) - objectwise
+DBMS
+
+
+React 
+Node js
+Php 
+
