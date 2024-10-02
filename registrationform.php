@@ -36,7 +36,7 @@
             <div class="col-6">
                 <h2><a href="display.php" class="btn btn-primary">Display User</a></h2>
                 <h3>Registration Form</h3>
-                <form id="userfrm" name="userfrm" action="#" method="post" enctype="multipart/form-data" >
+                <form id="userfrm" name="userfrm" action="insert.php" method="post" enctype="multipart/form-data" >
                     <input type="hidden" name="uid" value="<?php echo isset($id) ? $id : '' ?>">
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Name:</label>

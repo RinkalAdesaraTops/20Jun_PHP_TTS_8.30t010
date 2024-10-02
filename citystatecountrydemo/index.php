@@ -31,7 +31,7 @@
                 method: 'GET',
                 dataType:'JSON',
                 headers: {
-                    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfZW1haWwiOiJyaW5rYWxhZGVzYXJhLnRvcHNAZ21haWwuY29tIiwiYXBpX3Rva2VuIjoiQmoyTVY1czJld0RaSDZHdkpJM1oyTzE2NGEwR21hbmUyQkQ2Z2lJNk1adGJlb3E0ZVlyTnN5dXdDN2NCbGh2MkFFbyJ9LCJleHAiOjE3MjczMjUyNjd9.jkbNJpxao7msklamphiL6PaZEsCzQa0vlj7iHi0tIzo",
+                    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfZW1haWwiOiJyaW5rYWxhZGVzYXJhLnRvcHNAZ21haWwuY29tIiwiYXBpX3Rva2VuIjoiQmoyTVY1czJld0RaSDZHdkpJM1oyTzE2NGEwR21hbmUyQkQ2Z2lJNk1adGJlb3E0ZVlyTnN5dXdDN2NCbGh2MkFFbyJ9LCJleHAiOjE3Mjc1ODI0NDJ9.jOcEQyNQUYy7veedzWRvAf9WQh2UpKqO4njZuHyXjGw",
                     "Accept": "application/json"
                 },
                 success: function(res) {
@@ -54,7 +54,7 @@
                 method: 'GET',
                 dataType:'JSON',
                 headers: {
-                    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfZW1haWwiOiJyaW5rYWxhZGVzYXJhLnRvcHNAZ21haWwuY29tIiwiYXBpX3Rva2VuIjoiQmoyTVY1czJld0RaSDZHdkpJM1oyTzE2NGEwR21hbmUyQkQ2Z2lJNk1adGJlb3E0ZVlyTnN5dXdDN2NCbGh2MkFFbyJ9LCJleHAiOjE3MjczMjUyNjd9.jkbNJpxao7msklamphiL6PaZEsCzQa0vlj7iHi0tIzo",
+                    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfZW1haWwiOiJyaW5rYWxhZGVzYXJhLnRvcHNAZ21haWwuY29tIiwiYXBpX3Rva2VuIjoiQmoyTVY1czJld0RaSDZHdkpJM1oyTzE2NGEwR21hbmUyQkQ2Z2lJNk1adGJlb3E0ZVlyTnN5dXdDN2NCbGh2MkFFbyJ9LCJleHAiOjE3Mjc1ODI0NDJ9.jOcEQyNQUYy7veedzWRvAf9WQh2UpKqO4njZuHyXjGw",
                     "Accept": "application/json"
                 },
                 success: function(res) {
@@ -78,7 +78,7 @@
                 method: 'GET',
                 dataType:'JSON',
                 headers: {
-                    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfZW1haWwiOiJyaW5rYWxhZGVzYXJhLnRvcHNAZ21haWwuY29tIiwiYXBpX3Rva2VuIjoiQmoyTVY1czJld0RaSDZHdkpJM1oyTzE2NGEwR21hbmUyQkQ2Z2lJNk1adGJlb3E0ZVlyTnN5dXdDN2NCbGh2MkFFbyJ9LCJleHAiOjE3MjczMjUyNjd9.jkbNJpxao7msklamphiL6PaZEsCzQa0vlj7iHi0tIzo",
+                    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InVzZXJfZW1haWwiOiJyaW5rYWxhZGVzYXJhLnRvcHNAZ21haWwuY29tIiwiYXBpX3Rva2VuIjoiQmoyTVY1czJld0RaSDZHdkpJM1oyTzE2NGEwR21hbmUyQkQ2Z2lJNk1adGJlb3E0ZVlyTnN5dXdDN2NCbGh2MkFFbyJ9LCJleHAiOjE3Mjc1ODI0NDJ9.jOcEQyNQUYy7veedzWRvAf9WQh2UpKqO4njZuHyXjGw",
                     "Accept": "application/json"
                 },
                 success: function(res) {
@@ -90,10 +90,7 @@
                 error: function(err) {
                     console.log(err);
                 }
-            });
-
-           
-        
+            });        
         }
     </script>
 </body>
