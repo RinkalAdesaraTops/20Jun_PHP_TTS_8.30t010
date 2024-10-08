@@ -13,7 +13,7 @@ while($a = mysqli_fetch_assoc($res)){
     $tr .= "<td>".$a['id']."</td>";
     $tr .= "<td>".$a['name']."</td>";
     $tr .= "<td>".$a['email']."</td>";
-    $tr .= "<td><button class='btn btn-danger' onclick='delData(".$a['id'].")'>Delete</button></td>";
+    $tr .= "<td><button class='btn btn-info' onclick='editData(".$a['id'].")'>Edit</button>&nbsp;&nbsp;&nbsp;<button class='btn btn-danger' onclick='delData(".$a['id'].")'>Delete</button></td>";
     $tr .="</tr>";
 }
 echo $tr;

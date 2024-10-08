@@ -15,6 +15,7 @@
         <div class="row">
             <div class="col-md-6">
                 <form action="#" method="post" id="userfrm" name="userfrm">
+                    <input type="hidden" name="uid" id="uid">
                     <div class="form-group">
                         <label for="exampleInputEmail1">User Name:</label>
                         <input type="text" class="form-control" id="name" name="name" placeholder="Enter name">
@@ -28,7 +29,7 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" name="pwd" id="pwd" placeholder="Password">
+                        <input type="text" class="form-control" name="pwd" id="pwd" placeholder="Password">
                     </div>
 
                     <button type="button" id="save" class="btn btn-primary" onclick="savedata()">Save Data</button>
@@ -78,10 +79,11 @@
             let name = $("#name").val()
             let email = $("#email").val()
             let pwd = $("#pwd").val()
+            let uid = $("#uid").val()
             $.ajax({
                 url: "insert.php",
                 method: 'POST',
-                data: { name: name, email: email, password: pwd },
+                data: { name: name, email: email, password: pwd,id:uid },
                 success: (msg) => {
                     document.userfrm.reset()
                     $("#userlist").load('display.php');
@@ -106,6 +108,24 @@
                 
             })
         }
+        const editData = (id)=>{
+            $.ajax({
+                url:"edit.php?id="+id,
+                method:"GET",
+                dataType:'JSON',
+                success: (msg) => {
+                        $("#uid").val(msg.id)            
+                        $("#name").val(msg.name)            
+                        $("#email").val(msg.email)            
+                        $("#pwd").val(msg.password)            
+                },
+                error: () => {
+                    console.log("error");
+                }
+                
+            })
+        }
+        
     </script>
 </body>
 
